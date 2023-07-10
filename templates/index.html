@@ -9,12 +9,15 @@
 <div class="container">
   <h2>Star Wars Character Generator</h2>
 
+  <!-- This form submits the user's input (name) to the server -->
   <form method="POST">
     <label for="name">Character name:</label><br>
     <input type="text" id="name" name="name"><br>
     <input type="submit" value="Generate">
   </form>
 
+  <!-- This block renders only if the 'character' variable is passed to the template.
+       It formats and displays the character information. -->
   {% if character %}
     <pre>{{ character }}</pre>
   {% endif %}

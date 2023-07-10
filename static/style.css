@@ -1,15 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
 
 body {
+    /* Applies a Star Wars-themed background image */
     background-image: url('/static/star-wars-background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+
+    /* Applies a Star Wars-themed font and color */
     font-family: 'Pathway Gothic One', sans-serif;
     color: yellow;
+
+    /* Makes the background image cover the entire viewport height */
     min-height: 100vh;
 }
 
 .container {
+    /* Centers the content horizontally and applies a dark overlay */
     position: relative;
     width: 80%;
     margin: 0 auto;
@@ -18,16 +24,13 @@ body {
     padding: 30px;
 }
 
-h2 {
+/* Applies margin to elements to give them some space */
+h2, form, pre {
     margin-top: 50px;
 }
 
-form {
-    margin-top: 50px;
-}
-
+/* Applies color and font-size to preformatted text */
 pre {
     color: white;
-    margin-top: 50px;
     font-size: 1.2em;
 }

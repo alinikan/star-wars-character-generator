@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+
+body {
+    background-image: url('/static/star-wars-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: yellow;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+form {
+    margin-top: 50px;
+}
+
+pre {
+    color: white;
+    margin-top: 50px;
+    font-size: 1.2em;
+}

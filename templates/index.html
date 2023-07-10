@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+  <title>Star Wars Character Generator</title>
+</head>
+<body>
+
+<div class="container">
+  <h2>Star Wars Character Generator</h2>
+
+  <form method="POST">
+    <label for="name">Character name:</label><br>
+    <input type="text" id="name" name="name"><br>
+    <input type="submit" value="Generate">
+  </form>
+
+  {% if character %}
+    <pre>{{ character }}</pre>
+  {% endif %}
+</div>
+
+</body>
+</html>

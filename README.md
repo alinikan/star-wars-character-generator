@@ -6,7 +6,7 @@ Welcome to the Star Wars Character Generator! This project allows users to gener
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Running the Character Generator in the Terminal](#Running-the-Character-Generator-in-the-Terminal)
+- [Running the Character Generator in the Terminal](#running-the-character-generator-in-the-terminal)
 - [Usage](#usage)
 
 ## Getting Started
